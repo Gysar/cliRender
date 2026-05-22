@@ -6,11 +6,12 @@ Just a little project to fight the boredom.
 Usage:
 
 compile it like usual, example in windows:
-g++ -Wall -pedantic cmdrender.c -o cmdrender
 
-cmdrender.exe -w 400 -h 400 -f example.obj
-cmdrender.exe -f example.obj
-cmdrender.exe -w 100 -h 100
+*g++ -Wall -pedantic cmdrender.c -o cmdrender*
+
+- cmdrender.exe -w 400 -h 400 -f example.obj
+- cmdrender.exe -f example.obj
+- cmdrender.exe -w 100 -h 100
 
 If no obj is provided, a cube is displayed. 
 
